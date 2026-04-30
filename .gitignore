@@ -1,0 +1,12 @@
+.env
+.env.local
+storage/logs/*.log
+storage/ratelimit/*.json
+storage/tmp/*
+storage/data/*.sqlite
+storage/data/*.sqlite-*
+storage/data/*.db
+!storage/logs/.gitkeep
+!storage/ratelimit/.gitkeep
+!storage/tmp/.gitkeep
+!storage/data/.gitkeep
